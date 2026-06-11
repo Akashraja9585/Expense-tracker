@@ -31,6 +31,7 @@ npm start
 No API key needed — works fully offline.
 
 ## Folder structure
+```bash
 src/
 ├── components/
 │   ├── AddTransaction.jsx
@@ -39,7 +40,7 @@ src/
 │   └── ExpenseChart.jsx
 ├── App.jsx
 └── index.js
-
+```
 ## What I learned
 
 Managing state across multiple components was the biggest challenge here. Understanding how to lift state up to a parent component and pass it down as props made things click for me.
